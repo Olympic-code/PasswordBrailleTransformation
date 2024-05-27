@@ -59,9 +59,3 @@ def evaluate_security(password_list):
         print("Vulnerável a ataques estatísticos.")
     else:
         print("Resistente a ataques estatísticos.")
-    
-    # Outras avaliações podem ser adicionadas conforme necessário
-
-# Exemplo de uso para avaliação
-password_list = ["senha1", "senha2", "senha3", "minha_senha_secreta", "senha_secreta"]
-evaluate_security(password_list)
